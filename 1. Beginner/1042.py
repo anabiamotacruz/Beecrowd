@@ -1,5 +1,11 @@
-valores = input('').split()
+_input = list(map(int, input('').split()))
 
-lista = []
+for i in sorted(_input):
 
-lista.append(valores)
+    print(i)
+
+print('')
+
+for i in _input:
+
+    print(i)
